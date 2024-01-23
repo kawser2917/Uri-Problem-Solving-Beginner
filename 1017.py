@@ -1,0 +1,5 @@
+tripinhour = int(input())
+speed = int(input())
+distance = (speed/12)
+result = (distance*tripinhour)
+print(f"{result:.3f}")
