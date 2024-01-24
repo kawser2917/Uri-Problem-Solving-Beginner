@@ -1,0 +1,5 @@
+N = int(input())
+Y = int(N/365)
+M = int((N%365)/30)
+D = int((N%365)%30)
+print(f"{Y} ano(s)\n{M} mes(es)\n{D} dia(s)")
