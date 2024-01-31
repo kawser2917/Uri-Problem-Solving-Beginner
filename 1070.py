@@ -5,4 +5,5 @@ while(i<6):
         print(n)
         i+=1
     n+=1
+    print(n)
         
