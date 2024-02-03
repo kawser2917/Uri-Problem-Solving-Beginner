@@ -5,11 +5,8 @@ for i in range(n):
     if(a==b):
         print(0)
     else:
-        c = 0
         if(a>b):
-            c = a
-            a = b
-            b = c
+            a,b=b,a
         while(a<(b-1)):
             a+=1
             if(a%2!=0):
