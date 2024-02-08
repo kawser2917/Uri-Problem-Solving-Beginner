@@ -1,6 +1,6 @@
 x = int(input())
 z = int(input())
-while (z<x):
+while (z<=x):
     z = int(input())
 sum = 0
 count = 1
