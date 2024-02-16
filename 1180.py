@@ -27,6 +27,6 @@ for i in lista:
         l = i
         p = count
     count+=1
-print(f"Menor vlor: {l}")
+print(f"Menor valor: {l}")
 print(f"Posicao: {p}")
     
