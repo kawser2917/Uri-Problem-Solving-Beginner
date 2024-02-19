@@ -21,7 +21,6 @@ for i in range(12):
         v = float(input())
         element.append(v)
     M.append(element)
-
 for i in range(12):
     sum += M[l][i]
 if(op.upper() == "S"):
